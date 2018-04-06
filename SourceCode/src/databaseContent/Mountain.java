@@ -6,6 +6,7 @@ public class Mountain {
 	private String range;
 	private int height;
 	private String sciezka;
+	private String text;
 
 	public String getSciezka() {
 		return sciezka;
@@ -22,8 +23,6 @@ public class Mountain {
 	public void setText(String text) {
 		this.text = text;
 	}
-
-	String text;
 
 	public String getName() {
 		return name;
